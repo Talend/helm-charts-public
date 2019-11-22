@@ -13,7 +13,7 @@ helm repo add talend-public https://talend.github.io/helm-charts-public
 
 You may list all charts available to installation with this command.
 ```bash
-helm search talend
+helm search talend-public
 ```
 
 and then use the classic `helm install` command in order to install the chart into your favorite kubernetes cluster.
