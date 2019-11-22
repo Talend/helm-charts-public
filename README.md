@@ -16,4 +16,4 @@ You may list all charts available to installation with this command.
 helm search talend
 ```
 
-and then use the classic `install` command in order to install the chart into your favorite kubernetes cluster.
+and then use the classic `helm install` command in order to install the chart into your favorite kubernetes cluster.
