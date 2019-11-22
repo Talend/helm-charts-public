@@ -1,4 +1,4 @@
-## Welcome to Talend public helm charts repository
+## Welcome to the Talend public helm charts registry
 
 This repository host the public [helm charts](https://helm.sh/) that are created and maintained by Talend and provide them as a Helm registry.
 
