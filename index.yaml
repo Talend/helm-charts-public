@@ -2,8 +2,29 @@ apiVersion: v1
 entries:
   vault-sidecar-injector:
   - apiVersion: v1
+    appVersion: 5.0.0
+    created: 2019-12-06T15:48:08.992133996+01:00
+    description: A Helm chart for Talend Vault Sidecar Injector (OSS)
+    digest: 03af9ef6d654e25fb9e187f9d8fed1e85f7f70b14d2f586d4bb1770b8a936c10
+    home: https://www.talend.com/products/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - vault
+    - sidecar
+    - vault-sidecar-injector
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    name: vault-sidecar-injector
+    sources:
+    - https://github.com/Talend/vault-sidecar-injector
+    urls:
+    - https://talend.github.io/helm-charts-public/vault-sidecar-injector-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v1
     appVersion: 4.1.0
-    created: 2019-11-24T12:23:46.10524845+01:00
+    created: 2019-12-06T15:48:08.990907576+01:00
     description: A Helm chart for Talend Vault Sidecar Injector (OSS)
     digest: cb896527cefab2698e746e56c5a7580b6a2158423fab3cb3ad6741dc02774d1d
     home: https://www.talend.com/products/
@@ -22,4 +43,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/vault-sidecar-injector-2.1.0.tgz
     version: 2.1.0
-generated: 2019-11-24T12:23:46.104443183+01:00
+generated: 2019-12-06T15:48:08.989682121+01:00
