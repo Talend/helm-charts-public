@@ -13,6 +13,8 @@ jobs:
       uses: Azure/setup-helm@v1
       with:
         version: v2.16.1
+    - name: setup helm
+      run: helm init --client-only
     - name: install helm repo
       run: helm repo add test https://github.com/Talend/helm-charts-public/blob/$GITHUB_SHA/index.yaml
     - name: update the test helm repo
