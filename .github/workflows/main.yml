@@ -27,3 +27,7 @@ jobs:
     # perform some update, I think this is not required as the previous add should detect issues but it does not cost much :)
     - name: update the test helm repo
       run: helm repo update
+
+#Reference Documentatio : 
+# https://help.github.com/en/actions/automating-your-workflow-with-github-actions/workflow-syntax-for-github-actions
+# https://help.github.com/en/actions/automating-your-workflow-with-github-actions/using-environment-variables
