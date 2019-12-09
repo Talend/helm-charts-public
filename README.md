@@ -17,3 +17,7 @@ helm search talend-public
 ```
 
 and then use the classic `helm install` command in order to install the chart into your favorite kubernetes cluster.
+
+
+### Helm Hub
+This Talend public registry is also available on the central helm hub here : https://hub.helm.sh/charts?q=Talend
