@@ -1,5 +1,25 @@
 apiVersion: v1
 entries:
+  talend-api-microgateway:
+  - apiVersion: v1
+    appVersion: 1.4
+    created: 2019-12-09T08:40:49.2912238+01:00
+    description: A Helm chart for Talend API Microgateway to be run along with Talend
+      Remote Engine for Pipelines
+    digest: 93bc88cecd62c86f267c8bfff4cb92addbc4d5c5f9742e4237a24eecd82f2e91
+    home: https://www.talend.com/products/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - API
+    - microgateway
+    maintainers:
+    - name: Talend
+      url: https://www.talend.com/products/
+    name: talend-api-microgateway
+    urls:
+    - https://talend.github.io/helm-charts-public/talend-api-microgateway-0.1.1.tgz
+    version: 0.1.1
   vault-sidecar-injector:
   - apiVersion: v1
     appVersion: 5.0.0
@@ -43,4 +63,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/vault-sidecar-injector-2.1.0.tgz
     version: 2.1.0
-generated: 2019-12-06T15:48:08.989682121+01:00
+generated: 2019-12-09T08:40:49.2801484+01:00
