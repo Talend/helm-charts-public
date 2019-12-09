@@ -23,7 +23,7 @@ entries:
   vault-sidecar-injector:
   - apiVersion: v1
     appVersion: 5.0.0
-    created: "2019-12-09T08:40:49.2972432+01:00"
+    created: 2019-12-06T15:48:08.992133996+01:00
     description: A Helm chart for Talend Vault Sidecar Injector (OSS)
     digest: 03af9ef6d654e25fb9e187f9d8fed1e85f7f70b14d2f586d4bb1770b8a936c10
     home: https://www.talend.com/products/
