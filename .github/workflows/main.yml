@@ -12,6 +12,6 @@ jobs:
     - name: Helm tool installer
       uses: Azure/setup-helm@v1
       with:
-        version: 2.16.1
+        version: v2.16.1
     - name: install helm repo
       run: helm version
