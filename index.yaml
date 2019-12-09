@@ -4,7 +4,7 @@ entries:
   - apiVersion: v1
     appVersion: "1.4"
     created: 2019-12-09T15:35:33.074087+01:00
-    description: A Helm chart for Talend API Microgateway to be run along with Talend
+    description : A Helm chart for Talend API Microgateway to be run along with Talend
       Remote Engine for Pipelines
     digest: 93bc88cecd62c86f267c8bfff4cb92addbc4d5c5f9742e4237a24eecd82f2e91
     home: https://www.talend.com/products/
