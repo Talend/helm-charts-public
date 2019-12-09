@@ -1,0 +1,33 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    #- uses: actions/checkout@v1      no need to checkout the code.
+
+    # install helm
+    - name: Helm tool installer
+      uses: Azure/setup-helm@v1
+      with:
+        version: v2.16.1
+
+    # setup helm without tiller
+    - name: setup helm
+      run: helm init --client-only
+
+    # add a test repo on the current commit
+    - name: install helm repo
+      run: helm repo add test https://raw.githubusercontent.com/Talend/helm-charts-public/$GITHUB_SHA
+
+    # perform some update, I think this is not required as the previous add should detect issues but it does not cost much :)
+    - name: update the test helm repo
+      run: helm repo update
+
+#Reference Documentation : 
+# https://help.github.com/en/actions/automating-your-workflow-with-github-actions/workflow-syntax-for-github-actions
+# https://help.github.com/en/actions/automating-your-workflow-with-github-actions/using-environment-variables
