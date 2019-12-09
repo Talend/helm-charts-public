@@ -1,0 +1,17 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Helm tool installer
+      uses: Azure/setup-helm@v1
+      with:
+        version: 2.16.1
+    - name: install helm repo
+      run: helm version
