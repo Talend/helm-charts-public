@@ -18,7 +18,7 @@ entries:
       url: https://www.talend.com/products/
     name: talend-api-microgateway
     urls:
-    - https://talend.github.io/helm-charts-public/incubator/talend-api-microgateway-0.1.3.tgz
+    - https://talend.github.io/helm-charts-public/released/talend-api-microgateway-0.1.3.tgz
     version: 0.1.3
   tpsvc-remote-engine:
   - apiVersion: v1
@@ -28,6 +28,6 @@ entries:
     digest: fc2d2cbc8ae473e992c7784489b28fe22488331a083882b3e8c1576c95bb807a
     name: tpsvc-remote-engine
     urls:
-    - https://talend.github.io/helm-charts-public/incubator/tpsvc-remote-engine-0.2.2.tgz
+    - https://talend.github.io/helm-charts-public/released/tpsvc-remote-engine-0.2.2.tgz
     version: 0.2.2
 generated: "2020-01-15T11:57:14.010799+01:00"

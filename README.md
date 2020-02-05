@@ -18,7 +18,8 @@ helm search talend-public
 
 and then use the classic `helm install` command in order to install the chart into your favorite kubernetes cluster.
 
-Note : you may also try the incubator registry that is available at https://talend.github.io/helm-charts-public/incubator
+Note : you may also try the released registry that is available at https://talend.github.io/helm-charts-public/released  
+It contains production grade charts that are not yet publicly advertised.
 
 ### Helm Hub
 This Talend public registry is also available on the central helm hub here : https://hub.helm.sh/charts?q=Talend
