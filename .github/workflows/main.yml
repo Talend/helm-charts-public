@@ -25,6 +25,8 @@ jobs:
       run: helm repo add incubator https://raw.githubusercontent.com/Talend/helm-charts-public/$GITHUB_SHA/incubator
     - name: install helm repo stable
       run: helm repo add stable https://raw.githubusercontent.com/Talend/helm-charts-public/$GITHUB_SHA/stable
+    - name: install helm repo released
+      run: helm repo add stable https://raw.githubusercontent.com/Talend/helm-charts-public/$GITHUB_SHA/released
 
     # perform some update, I think this is not required as the previous add should detect issues but it does not cost much :)
     - name: update the test helm repo
