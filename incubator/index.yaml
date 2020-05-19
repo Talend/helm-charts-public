@@ -8,7 +8,7 @@ entries:
       Remote Engine for Pipelines
     digest: dd70ab9d9a9c288d11a4c5296ec59c1bea7bbaf4324c5c9c2d85625b8456bd84
     home: https://www.talend.com/products/
-    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    icon: https://raw.githubusercontent.com/Talend/ui/master/packages/icons/src/svg/products/logo-colored.svg
     keywords:
     - Talend
     - API
