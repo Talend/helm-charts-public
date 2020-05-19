@@ -1,3 +1,23 @@
 apiVersion: v1
 entries:
-generated: "2020-01-15T11:57:14.010799+01:00"
+  talend-api-microgateway:
+  - apiVersion: v1
+    appVersion: "1.4"
+    created: "2020-05-19T10:31:56.469456+02:00"
+    description: A Helm chart for Talend API Microgateway to be run along with Talend
+      Remote Engine for Pipelines
+    digest: dd70ab9d9a9c288d11a4c5296ec59c1bea7bbaf4324c5c9c2d85625b8456bd84
+    home: https://www.talend.com/products/
+    icon: https://raw.githubusercontent.com/Talend/ui/master/packages/icons/src/svg/products/logo-colored.svg
+    keywords:
+    - Talend
+    - API
+    - microgateway
+    maintainers:
+    - name: Talend
+      url: https://www.talend.com/products/
+    name: talend-api-microgateway
+    urls:
+    - https://talend.github.io/helm-charts-public/incubator/talend-api-microgateway-0.1.11.tgz
+    version: 0.1.11
+generated: "2020-05-19T10:31:56.463874+02:00"
