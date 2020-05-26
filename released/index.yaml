@@ -30,4 +30,14 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/released/tpsvc-remote-engine-0.2.2.tgz
     version: 0.2.2
-generated: "2020-01-15T11:57:14.010799+01:00"
+  tpsvc-remote-engine-core:
+  - apiVersion: v1
+    appVersion: 1.0.0-alpha1
+    created: "2020-05-18T22:45:44.400659+02:00"
+    description: A Helm chart for the remote engine (client) in Kubernetes
+    digest: d01c56a8fb8f2b541c80794444d037959061b7f987eb705794b7a7b84d06985f
+    name: tpsvc-remote-engine-core
+    urls:
+    - https://talend.github.io/helm-charts-public/released/tpsvc-remote-engine-core-0.3.5.tgz
+    version: 0.3.5
+generated: "2020-05-18T22:45:44.386943+02:00"
