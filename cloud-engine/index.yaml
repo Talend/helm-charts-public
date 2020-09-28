@@ -1,0 +1,93 @@
+apiVersion: v1
+entries:
+  common-component-server:
+  - apiVersion: v1
+    appVersion: "1"
+    created: "2020-09-28T11:18:44.196968236+02:00"
+    description: Talend Component Kit Backend Server
+    digest: 92893d8389c4f59f482ce60496b157b8c2da72de866c79e32c0800d341fc4c2e
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - common-component-server
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    name: common-component-server
+    sources:
+    - https://github.com/Talend/common-component-server
+    urls:
+    - https://talend.github.io/helm-charts-public/cloud-engine/common-component-server-0.4.9.tgz
+    version: 0.4.9
+  tpd-livy:
+  - apiVersion: v1
+    appVersion: "1"
+    created: "2020-09-28T11:18:44.198412193+02:00"
+    description: A Helm chart for tpd-livy in Kubernetes
+    digest: a421cde76ff7cec3e0be06a65a4f31269bf8eaa5138a677cf59bfa23a8f732a4
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - tpd-livy
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    name: tpd-livy
+    sources:
+    - https://github.com/Talend/incubator-livy
+    urls:
+    - https://talend.github.io/helm-charts-public/cloud-engine/tpd-livy-0.2.11.tgz
+    version: 0.2.11
+  tpd-previewrunner:
+  - apiVersion: v1
+    appVersion: "1"
+    created: "2020-09-28T11:18:44.19969661+02:00"
+    description: A Helm chart for tpd-previewrunner in Kubernetes
+    digest: 02cfc10e18061c83b7615ef50afd52adb2c557eedc230eb60755ffd8267cbfbf
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - tpd-previewrunner
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    name: tpd-previewrunner
+    sources:
+    - https://github.com/Talend/tpd-previewrunner
+    urls:
+    - https://talend.github.io/helm-charts-public/cloud-engine/tpd-previewrunner-0.2.15.tgz
+    version: 0.2.15
+  tpsvc-cloud-engine-infra:
+  - apiVersion: v1
+    appVersion: "1"
+    created: "2020-09-28T11:18:44.200150514+02:00"
+    description: common resources for cloud engines for design
+    digest: f7df7e983a0e11998bbbe9db72e87a532a2784a87011a4554a2f58f1cd31bdf7
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - tpsvc-cloud-engine-infra
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    name: tpsvc-cloud-engine-infra
+    sources:
+    - https://github.com/Talend/tpsvc-cloud-engine-infra
+    urls:
+    - https://talend.github.io/helm-charts-public/cloud-engine/tpsvc-cloud-engine-infra-0.4.0.tgz
+    version: 0.4.0
+  tpsvc-remote-engine-core:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2020-09-28T11:18:44.202341818+02:00"
+    description: A Helm chart for the remote engine (client) in Kubernetes
+    digest: b8fb2b2b588a4fc81a8c40ca35ac8f99a034731fcec54f445c20d56daaf6ca23
+    name: tpsvc-remote-engine-core
+    urls:
+    - https://talend.github.io/helm-charts-public/cloud-engine/tpsvc-remote-engine-core-0.6.3.tgz
+    version: 0.6.3
+generated: "2020-09-28T11:18:44.19460154+02:00"
