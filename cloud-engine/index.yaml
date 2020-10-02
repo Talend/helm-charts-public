@@ -3,7 +3,7 @@ entries:
   common-component-server:
   - apiVersion: v1
     appVersion: "1"
-    created: "2020-09-28T11:18:44.196968236+02:00"
+    created: "2020-10-02T11:49:52.763993582+02:00"
     description: Talend Component Kit Backend Server
     digest: 92893d8389c4f59f482ce60496b157b8c2da72de866c79e32c0800d341fc4c2e
     home: https://www.talend.com/products/platform/
@@ -23,7 +23,7 @@ entries:
   tpd-livy:
   - apiVersion: v1
     appVersion: "1"
-    created: "2020-09-28T11:18:44.198412193+02:00"
+    created: "2020-10-02T11:49:52.765246713+02:00"
     description: A Helm chart for tpd-livy in Kubernetes
     digest: a421cde76ff7cec3e0be06a65a4f31269bf8eaa5138a677cf59bfa23a8f732a4
     home: https://www.talend.com/products/platform/
@@ -43,7 +43,7 @@ entries:
   tpd-previewrunner:
   - apiVersion: v1
     appVersion: "1"
-    created: "2020-09-28T11:18:44.19969661+02:00"
+    created: "2020-10-02T11:49:52.766523325+02:00"
     description: A Helm chart for tpd-previewrunner in Kubernetes
     digest: 02cfc10e18061c83b7615ef50afd52adb2c557eedc230eb60755ffd8267cbfbf
     home: https://www.talend.com/products/platform/
@@ -63,7 +63,26 @@ entries:
   tpsvc-cloud-engine-infra:
   - apiVersion: v1
     appVersion: "1"
-    created: "2020-09-28T11:18:44.200150514+02:00"
+    created: "2020-10-02T11:49:52.767355457+02:00"
+    description: common resources for cloud engines for design
+    digest: 3c6defba648d55d4a7ed9f54f3bfbf1c1aad458ace333baa39f948f8ab23724c
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - tpsvc-cloud-engine-infra
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    name: tpsvc-cloud-engine-infra
+    sources:
+    - https://github.com/Talend/tpsvc-cloud-engine-infra
+    urls:
+    - https://talend.github.io/helm-charts-public/cloud-engine/tpsvc-cloud-engine-infra-0.4.1.tgz
+    version: 0.4.1
+  - apiVersion: v1
+    appVersion: "1"
+    created: "2020-10-02T11:49:52.766942346+02:00"
     description: common resources for cloud engines for design
     digest: f7df7e983a0e11998bbbe9db72e87a532a2784a87011a4554a2f58f1cd31bdf7
     home: https://www.talend.com/products/platform/
@@ -83,7 +102,7 @@ entries:
   tpsvc-remote-engine-core:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2020-10-02T11:22:00.977705+02:00"
+    created: "2020-10-02T11:49:52.77479975+02:00"
     description: A Helm chart for the remote engine (client) in Kubernetes
     digest: 53a26f61ec5faba8a4bef6de7907d302693b219bbcec23e496884f2a5ce17894
     name: tpsvc-remote-engine-core
@@ -92,7 +111,7 @@ entries:
     version: 0.6.5
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2020-10-02T11:22:00.976143+02:00"
+    created: "2020-10-02T11:49:52.772107118+02:00"
     description: A Helm chart for the remote engine (client) in Kubernetes
     digest: 0e736a899d9279b33dd16f6d81c8ffb2c1abdb44e3cf01bff0322f2f8948164a
     name: tpsvc-remote-engine-core
@@ -101,11 +120,11 @@ entries:
     version: 0.6.4
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2020-09-28T11:18:44.202341818+02:00"
+    created: "2020-10-02T11:49:52.769740714+02:00"
     description: A Helm chart for the remote engine (client) in Kubernetes
     digest: b8fb2b2b588a4fc81a8c40ca35ac8f99a034731fcec54f445c20d56daaf6ca23
     name: tpsvc-remote-engine-core
     urls:
     - https://talend.github.io/helm-charts-public/cloud-engine/tpsvc-remote-engine-core-0.6.3.tgz
     version: 0.6.3
-generated: "2020-10-02T11:22:00.965434+02:00"
+generated: "2020-10-02T11:49:52.761904388+02:00"
