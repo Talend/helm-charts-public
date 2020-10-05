@@ -23,6 +23,25 @@ entries:
   tpd-livy:
   - apiVersion: v1
     appVersion: "1"
+    created: "2020-10-05T09:46:06.245704566+02:00"
+    description: A Helm chart for tpd-livy in Kubernetes
+    digest: 3dae7c2e19612b1157f9d3da3cb889981c3f88154c9c8a84780595f396247c46
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - tpd-livy
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    name: tpd-livy
+    sources:
+    - https://github.com/Talend/incubator-livy
+    urls:
+    - https://talend.github.io/helm-charts-public/cloud-engine/tpd-livy-0.2.12.tgz
+    version: 0.2.12
+  - apiVersion: v1
+    appVersion: "1"
     created: "2020-10-02T11:49:52.765246713+02:00"
     description: A Helm chart for tpd-livy in Kubernetes
     digest: a421cde76ff7cec3e0be06a65a4f31269bf8eaa5138a677cf59bfa23a8f732a4
@@ -127,4 +146,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/cloud-engine/tpsvc-remote-engine-core-0.6.3.tgz
     version: 0.6.3
-generated: "2020-10-02T11:49:52.761904388+02:00"
+generated: "2020-10-05T09:46:06.240295564+02:00"
