@@ -3,6 +3,25 @@ entries:
   common-component-server:
   - apiVersion: v1
     appVersion: "1"
+    created: "2020-10-07T15:20:55.045161425+02:00"
+    description: Talend Component Kit Backend Server
+    digest: 387041aa43bcea1594fdee520d2c27bfffe54bfd3fd674f1fdf78ec570ff9fea
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - common-component-server
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    name: common-component-server
+    sources:
+    - https://github.com/Talend/common-component-server
+    urls:
+    - https://talend.github.io/helm-charts-public/cloud-engine/common-component-server-0.4.11.tgz
+    version: 0.4.11
+  - apiVersion: v1
+    appVersion: "1"
     created: "2020-10-02T11:49:52.763993582+02:00"
     description: Talend Component Kit Backend Server
     digest: 92893d8389c4f59f482ce60496b157b8c2da72de866c79e32c0800d341fc4c2e
