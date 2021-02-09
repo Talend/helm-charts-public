@@ -14,11 +14,7 @@ jobs:
     - name: Helm tool installer
       uses: Azure/setup-helm@v1
       with:
-        version: v2.16.1
-
-    # setup helm without tiller
-    - name: setup helm
-      run: helm init --client-only
+        version: v3.2.4
 
     # add a test repo on the current commit
     - name: install helm repo incubator
