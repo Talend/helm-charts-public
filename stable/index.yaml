@@ -316,4 +316,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/stable/vault-sidecar-injector-2.1.0.tgz
     version: 2.1.0
-generated: "2021-05-26T11:02:05.297939647+02:00"
+generated: "2022-02-24T13:04:05.324645556+02:00"
