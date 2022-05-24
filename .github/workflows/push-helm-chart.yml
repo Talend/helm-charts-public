@@ -9,7 +9,7 @@ on:
         type: string
 
 jobs:
-  push-chart:
+  push:
     runs-on: self-hosted
 
     steps:
