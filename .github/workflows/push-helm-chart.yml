@@ -10,7 +10,7 @@ on:
 
 jobs:
   push:
-    runs-on: self-hosted
+    runs-on: [self-hosted, docker-in-docker]
 
     steps:
       - name: Send greeting
