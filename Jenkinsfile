@@ -69,7 +69,6 @@ pipeline {
                         cd $CHART_PUBLIC_FOLDER/$CHART_NAME
                         helm repo index --merge ../index.yaml --url $PUBLIC_REPO_URL/$CHART_PUBLIC_FOLDER/$name/ .
                         mv -f index.yaml ../index.yaml
-                        cat ../index.yaml
                     '''
                 }
             }
