@@ -64,9 +64,8 @@ pipeline {
         stage('Update chart repo index') {
             steps {
                 sh '''
-                    ls -l
-                    cd ${params.CHART_PUBLIC_FOLDER}/${params.CHART_NAME}
-                    helm repo index --merge ../index.yaml --url ${PUBLIC_REPO_URL}/${params.CHART_PUBLIC_FOLDER}/ .
+                    cd $CHART_PUBLIC_FOLDER/$CHART_NAME
+                    helm repo index --merge ../index.yaml --url $PUBLIC_REPO_URL/$CHART_PUBLIC_FOLDER/ .
                     mv -f index.yaml ../index.yaml
                 '''
             }
