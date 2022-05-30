@@ -78,7 +78,7 @@ pipeline {
             steps {
                 sh '''
                     git add -A
-                    git commit -m "Added chart $CHART_NAME"
+                    git commit -m "Update chart $CHART_NAME/$CHART_VERSION"
                     git push origin master
                 '''
             }
