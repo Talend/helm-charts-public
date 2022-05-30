@@ -5,7 +5,7 @@ spec:
     - name: talend-registry
   containers:
     - name: talend-tsbi-dev
-      image: artifactory.datapwn.com/tlnd-docker-prod/talend/common/tsbi/jdk8-dev-base:2.9.4-20211124192604
+      image: artifactory.datapwn.com/tlnd-docker-prod/talend/common/tsbi/jdk8-dev-base:2.9.32-2.6-20220426164643
       command:
         - cat
       tty: true
