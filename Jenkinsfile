@@ -28,7 +28,6 @@ pipeline {
 
     parameters {
         string(name: 'CHART_NAME', defaultValue: '', description: 'Chart name + version to the internal chart to deploy (ie: dpe-remote-engine-client-1.2.0)')
-        string(name: 'CHART_VERSION', defaultValue: '', description: 'Chart name + version to the internal chart to deploy (ie: dpe-remote-engine-client-1.2.0)')
         string(name: 'CHART_REPO', defaultValue: 'tlnd-helm-ce-dev', description: 'The repo to use')
         string(name: 'CHART_PUBLIC_FOLDER', defaultValue: 'engine', description: 'Chart root folder')
     }
@@ -56,7 +55,7 @@ pipeline {
                     sh '''
                         mkdir -p $CHART_PUBLIC_FOLDER/$CHART_NAME
                         cd $CHART_PUBLIC_FOLDER/$CHART_NAME
-                        helm pull $ARTIFACTORY_URL/$CHART_REPO/$CHART_NAME --version $CHART_VERSION --username $ARTIFACTORY_DOCKER_LOGIN --password $ARTIFACTORY_DOCKER_PASSWORD
+                        helm pull $ARTIFACTORY_URL/$CHART_REPO/$CHART_NAME.tgz --username $ARTIFACTORY_DOCKER_LOGIN --password $ARTIFACTORY_DOCKER_PASSWORD
                     '''
                 }
             }
