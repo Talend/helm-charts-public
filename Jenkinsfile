@@ -1,6 +1,6 @@
 #!/usr/bin/groovy
 
-def slackChannel = 'dpe-build-notification'
+String slackChannel = 'dpe-build-notification'
 def decodedJobName = env.JOB_NAME.replaceAll("%2F", "/")
 
 pipeline {
