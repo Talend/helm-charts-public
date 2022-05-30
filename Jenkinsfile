@@ -63,11 +63,14 @@ pipeline {
 
         stage('Update chart repo index') {
             steps {
-                sh '''
-                    cd $CHART_PUBLIC_FOLDER/$CHART_NAME
-                    helm repo index --merge ../index.yaml --url $PUBLIC_REPO_URL/$CHART_PUBLIC_FOLDER/ .
-                    mv -f index.yaml ../index.yaml
-                '''
+                script {
+                    name = "${$CHART_NAME}".replace('tgz', '')
+                    sh '''
+                        cd $CHART_PUBLIC_FOLDER/$CHART_NAME
+                        helm repo index --merge ../index.yaml --url $PUBLIC_REPO_URL/$CHART_PUBLIC_FOLDER/$CHART_NAME/ .
+                        mv -f index.yaml ../index.yaml
+                    '''
+                }
             }
         }
 
@@ -77,6 +80,7 @@ pipeline {
             }
             steps {
                 sh '''
+                    git checkout master
                     git add -A
                     git commit -m "Added chart $CHART_NAME/$CHART_VERSION"
                     git push origin master
