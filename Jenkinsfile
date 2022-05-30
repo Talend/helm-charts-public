@@ -53,7 +53,7 @@ pipeline {
                         usernamePassword(credentialsId: 'artifactory-datapwn-credentials', passwordVariable: 'ARTIFACTORY_DOCKER_PASSWORD', usernameVariable: 'ARTIFACTORY_DOCKER_LOGIN')
                 ]) {
                     sh '''
-                        mkdir $CHART_PUBLIC_FOLDER/$CHART_NAME
+                        mkdir -p $CHART_PUBLIC_FOLDER/$CHART_NAME
                         cd $CHART_PUBLIC_FOLDER/$CHART_NAME
                         helm pull $ARTIFACTORY_URL/$CHART_REPO/$CHART_NAME.tgz --username $ARTIFACTORY_DOCKER_LOGIN --password $ARTIFACTORY_DOCKER_PASSWORD
                     '''
