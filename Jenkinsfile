@@ -27,7 +27,7 @@ pipeline {
     }
 
     parameters {
-        string(name: 'CHART_NAME', defaultValue: '', description: 'Chart name + version to the internal chart to deploy (ie: dpe-remote-engine-client-1.2.0')
+        string(name: 'CHART_NAME', defaultValue: '', description: 'Chart name + version to the internal chart to deploy (ie: dpe-remote-engine-client-1.2.0)')
         string(name: 'CHART_REPO', defaultValue: 'tlnd-helm-ce-dev', description: 'The repo to use')
         string(name: 'CHART_PUBLIC_FOLDER', defaultValue: 'engine', description: 'Chart root folder')
     }
@@ -52,12 +52,11 @@ pipeline {
                 withCredentials([
                         usernamePassword(credentialsId: 'artifactory-datapwn-credentials', passwordVariable: 'ARTIFACTORY_DOCKER_PASSWORD', usernameVariable: 'ARTIFACTORY_DOCKER_LOGIN')
                 ]) {
-                    script {
-                        sh '''
-                            cd ${params.CHART_PUBLIC_FOLDER}/${CHART_NAME}
-                            helm pull ${ARTIFACTORY_URL}/${params.CHART_REPO}/${params.CHART_NAME}.tgz --username ${ARTIFACTORY_DOCKER_LOGIN} --password ${ARTIFACTORY_DOCKER_PASSWORD}
-                        '''
-                    }
+                    sh '''
+                        mkdir $CHART_PUBLIC_FOLDER/$CHART_NAME
+                        cd $CHART_PUBLIC_FOLDER/$CHART_NAME
+                        helm pull $ARTIFACTORY_URL/$CHART_REPO/$CHART_NAME.tgz --username $ARTIFACTORY_DOCKER_LOGIN --password $ARTIFACTORY_DOCKER_PASSWORD
+                    '''
                 }
             }
         }
@@ -66,7 +65,7 @@ pipeline {
             steps {
                 sh '''
                     ls -l
-                    cd ${params.CHART_PUBLIC_FOLDER}/${CHART_NAME}
+                    cd ${params.CHART_PUBLIC_FOLDER}/${params.CHART_NAME}
                     helm repo index --merge ../index.yaml --url ${PUBLIC_REPO_URL}/${params.CHART_PUBLIC_FOLDER}/ .
                     mv -f index.yaml ../index.yaml
                 '''
@@ -79,7 +78,7 @@ pipeline {
             }
             steps {
                 sh '''
-                    git commit -m "Added chart ${CHART_NAME}"
+                    git commit -m "Added chart ${params.CHART_NAME}"
                     git push origin master
                 '''
             }
