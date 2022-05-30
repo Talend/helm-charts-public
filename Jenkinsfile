@@ -73,11 +73,11 @@ pipeline {
 
         stage('Push git') {
             when {
-                branch 'master';
+                branch 'master'
             }
             steps {
                 sh '''
-                    git commit -m "Added chart ${params.CHART_NAME}"
+                    git commit -m "Added chart $CHART_NAME"
                     git push origin master
                 '''
             }
