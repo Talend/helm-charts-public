@@ -14,7 +14,7 @@ pipeline {
     agent {
         kubernetes {
             yamlFile 'builderPodTemplate.yaml'
-            defaultContainer 'talend-tsbi-springboot-builder'
+            defaultContainer 'talend-tsbi-dev'
         }
     }
 
