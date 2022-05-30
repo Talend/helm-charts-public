@@ -64,10 +64,10 @@ pipeline {
         stage('Update chart repo index') {
             steps {
                 script {
-                    name = "${$CHART_NAME}".replace('tgz', '')
+                    String name = "${CHART_NAME}".replace('tgz', '')
                     sh '''
                         cd $CHART_PUBLIC_FOLDER/$CHART_NAME
-                        helm repo index --merge ../index.yaml --url $PUBLIC_REPO_URL/$CHART_PUBLIC_FOLDER/$CHART_NAME/ .
+                        helm repo index --merge ../index.yaml --url $PUBLIC_REPO_URL/$CHART_PUBLIC_FOLDER/$name/ .
                         mv -f index.yaml ../index.yaml
                     '''
                 }
