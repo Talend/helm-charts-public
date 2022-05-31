@@ -67,6 +67,28 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/dpe-di-job-deployer-0.2.4/dpe-di-job-deployer-0.2.4.tgz
     version: 0.2.4
+  dpe-job-controller:
+  - apiVersion: v2
+    appVersion: 0.1.x
+    created: "2022-05-31T15:51:05.813246319Z"
+    description: A Helm chart for dpe-job-controller in Kubernetes
+    digest: 28888ae6efb49582d24ce5425bcf7e436d0473904111b13ecd31b4184b931cb8
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - dpe-job-controller
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    - name: Data Processing Platform > Engine
+    name: dpe-job-controller
+    sources:
+    - https://github.com/Talend/dpe-job-controller
+    type: application
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/dpe-job-controller-0.3.7/dpe-job-controller-0.3.7.tgz
+    version: 0.3.7
   dpe-remote-engine-agent:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -91,4 +113,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/dpe-remote-engine-client-2.0.2/dpe-remote-engine-client-2.0.2.tgz
     version: 2.0.2
-generated: "2022-05-31T15:50:40.560885301Z"
+generated: "2022-05-31T15:51:05.810560835Z"
