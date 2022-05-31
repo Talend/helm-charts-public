@@ -113,4 +113,26 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/dpe-remote-engine-client-2.0.2/dpe-remote-engine-client-2.0.2.tgz
     version: 2.0.2
-generated: "2022-05-31T15:51:05.810560835Z"
+  tpd-livy:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-05-31T15:53:45.77563205Z"
+    description: A Helm chart for tpd-livy in Kubernetes
+    digest: 174cb434dc76d02464866fbbae866817de8ef89a0d6c1633d79db8f0341e422b
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - tpd-livy
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    - name: Data Processing Platform > Runtime
+    name: tpd-livy
+    sources:
+    - https://github.com/Talend/incubator-livy
+    type: application
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/tpd-livy-1.1.1/tpd-livy-1.1.1.tgz
+    version: 1.1.1
+generated: "2022-05-31T15:53:45.773804087Z"
