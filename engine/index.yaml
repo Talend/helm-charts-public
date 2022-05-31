@@ -113,6 +113,26 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/dpe-remote-engine-client-2.0.2/dpe-remote-engine-client-2.0.2.tgz
     version: 2.0.2
+  dpr-shared-connectors:
+  - apiVersion: v2
+    created: "2022-05-31T15:54:18.141947086Z"
+    description: Manage shared connectors in hostPath volumes
+    digest: 7e92e18725ea911f96cd969fe2090fa85c7233fab278deb556bcca5688c94144
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - dpr-shared-connectors
+    maintainers:
+    - email: support@talend.com
+      name: Data Plateform Runtime
+    name: dpr-shared-connectors
+    sources:
+    - https://github.com/Talend/<CHARTNAME>
+    type: application
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/dpr-shared-connectors-0.2.3/dpr-shared-connectors-0.2.3.tgz
+    version: 0.2.3
   tpd-livy:
   - apiVersion: v2
     appVersion: "1.0"
@@ -135,4 +155,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-livy-1.1.1/tpd-livy-1.1.1.tgz
     version: 1.1.1
-generated: "2022-05-31T15:53:45.773804087Z"
+generated: "2022-05-31T15:54:18.139941801Z"
