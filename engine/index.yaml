@@ -10,6 +10,6 @@ entries:
     - name: Data Processing Platform > Engine
     name: dpe-remote-engine-client
     urls:
-    - https://talend.github.io/helm-charts-public/engine/dpe-remote-engine-client-2.0.2.tgz
+    - https://talend.github.io/helm-charts-public/engine/dpe-remote-engine-client-2.0.2/dpe-remote-engine-client-2.0.2.tgz
     version: 2.0.2
 generated: "2022-05-30T13:47:23.703705353Z"
