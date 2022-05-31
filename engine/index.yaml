@@ -45,6 +45,28 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/dataset-api-server-0.2.7/dataset-api-server-0.2.7.tgz
     version: 0.2.7
+  dpe-di-job-deployer:
+  - apiVersion: v2
+    appVersion: 0.1.x
+    created: "2022-05-31T15:50:40.56290805Z"
+    description: A Helm chart for dpe-di-job-deployer in Kubernetes
+    digest: a94a17c1e6cb4c961de8188107f9eb62452948886bf4f3950c5f43a44ba65794
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - dpe-di-job-deployer
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    - name: Data Processing Platform > Engine
+    name: dpe-di-job-deployer
+    sources:
+    - https://github.com/Talend/dpe-di-job-deployer
+    type: application
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/dpe-di-job-deployer-0.2.4/dpe-di-job-deployer-0.2.4.tgz
+    version: 0.2.4
   dpe-remote-engine-agent:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -69,4 +91,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/dpe-remote-engine-client-2.0.2/dpe-remote-engine-client-2.0.2.tgz
     version: 2.0.2
-generated: "2022-05-31T15:50:09.801800028Z"
+generated: "2022-05-31T15:50:40.560885301Z"
