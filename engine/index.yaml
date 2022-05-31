@@ -21,6 +21,30 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/common-component-server-1.1.7/common-component-server-1.1.7.tgz
     version: 1.1.7
+  dataset-api-server:
+  - apiVersion: v2
+    appVersion: 0.3.0
+    created: "2022-05-31T15:50:09.803494839Z"
+    description: A Helm chart for the API Creator runtime in Kubernetes CE4D
+    digest: db8fbf2542ec8e538bcb062cc1c141ec56ff70f1538ae28a4bb4fef08cbc6206
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - dataset-api-server
+    - apimgmt-creator-runtime
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    - email: apiteam@talend.com
+      name: API Domain
+    name: dataset-api-server
+    sources:
+    - https://github.com/Talend/apimgmt-creator-runtime/
+    type: application
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/dataset-api-server-0.2.7/dataset-api-server-0.2.7.tgz
+    version: 0.2.7
   dpe-remote-engine-agent:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -45,4 +69,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/dpe-remote-engine-client-2.0.2/dpe-remote-engine-client-2.0.2.tgz
     version: 2.0.2
-generated: "2022-05-31T15:48:16.385841124Z"
+generated: "2022-05-31T15:50:09.801800028Z"
