@@ -1,5 +1,26 @@
 apiVersion: v1
 entries:
+  common-component-server:
+  - apiVersion: v2
+    appVersion: "1"
+    created: "2022-05-31T15:48:16.387620587Z"
+    description: Talend Component Kit Backend Server
+    digest: 476f44232b3d6ca602e7eae4f54cb4a1bff2f5ea8a4957c764acacd5c5814663
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - common-component-server
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    - name: Studio Domain > Tacokit
+    name: common-component-server
+    sources:
+    - https://github.com/Talend/common-component-server
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/common-component-server-1.1.7/common-component-server-1.1.7.tgz
+    version: 1.1.7
   dpe-remote-engine-agent:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -24,4 +45,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/dpe-remote-engine-client-2.0.2/dpe-remote-engine-client-2.0.2.tgz
     version: 2.0.2
-generated: "2022-05-31T07:35:02.18709515Z"
+generated: "2022-05-31T15:48:16.385841124Z"
