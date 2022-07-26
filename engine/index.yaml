@@ -219,6 +219,27 @@ entries:
   tpd-livy:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2022-07-26T12:47:37.990157719Z"
+    description: A Helm chart for tpd-livy in Kubernetes
+    digest: 7de21cb47dbe68a563ed2ce3a6d35b708d5d7d355388a88d2b4df8338ebb26f2
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - tpd-livy
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    - name: Data Processing Platform > Runtime
+    name: tpd-livy
+    sources:
+    - https://github.com/Talend/incubator-livy
+    type: application
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/tpd-livy-1.1.6/tpd-livy-1.1.6.tgz
+    version: 1.1.6
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2022-05-31T15:53:45.77563205Z"
     description: A Helm chart for tpd-livy in Kubernetes
     digest: 174cb434dc76d02464866fbbae866817de8ef89a0d6c1633d79db8f0341e422b
@@ -260,4 +281,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2022-07-26T12:46:38.503680324Z"
+generated: "2022-07-26T12:47:37.987821078Z"
