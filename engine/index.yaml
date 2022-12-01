@@ -452,6 +452,27 @@ entries:
   tpd-previewrunner:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2022-12-01T15:37:06.068881377Z"
+    description: A Helm chart for tpd-previewrunner in Kubernetes
+    digest: f73b2e644723e7dd3c292ce64c97f401e987edead609f5924b87a2d1cadf113e
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - tpd-previewrunner
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    - name: Data Processing Platform > Runtime
+    name: tpd-previewrunner
+    sources:
+    - https://github.com/Talend/tpd-previewrunner
+    type: application
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-2.0.3/tpd-previewrunner-2.0.3.tgz
+    version: 2.0.3
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2022-07-26T12:48:52.806058057Z"
     description: A Helm chart for tpd-previewrunner in Kubernetes
     digest: 5aee3ab55f3657c5d3a2a058997ab4783691e614695f131dbc686b7c575f5526
@@ -492,4 +513,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2022-12-01T15:35:59.523558434Z"
+generated: "2022-12-01T15:37:06.067202038Z"
