@@ -84,6 +84,29 @@ entries:
   dataset-api-server:
   - apiVersion: v2
     appVersion: 0.3.0
+    created: "2023-03-06T11:13:21.891983963Z"
+    description: A Helm chart for the API Creator runtime in Kubernetes CE4D
+    digest: 25a5e3199c0d91a2eee01c6ab05eabfa3e25dc790f672496767b12dd0a13a510
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - dataset-api-server
+    - apimgmt-creator-runtime
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    - email: apiteam@talend.com
+      name: API Domain
+    name: dataset-api-server
+    sources:
+    - https://github.com/Talend/apimgmt-creator-runtime/
+    type: application
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/dataset-api-server-0.4.0/dataset-api-server-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: 0.3.0
     created: "2022-12-01T15:34:27.984552022Z"
     description: A Helm chart for the API Creator runtime in Kubernetes CE4D
     digest: ad8b864d493951415106512a6dc1fc5266161485a004e30b3d1edefb3b72e110
@@ -724,4 +747,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2023-03-01T09:44:18.12650144Z"
+generated: "2023-03-06T11:13:21.888944283Z"
