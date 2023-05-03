@@ -700,6 +700,23 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/dpr-shared-connectors-0.2.3/dpr-shared-connectors-0.2.3.tgz
     version: 0.2.3
+  local-path-provisioner:
+  - apiVersion: v1
+    appVersion: v0.0.24
+    created: "2023-05-03T14:05:00.842367306Z"
+    description: Use HostPath for persistent local storage with Kubernetes
+    digest: c22ae1e59fe964f90bc721f75422b37827269accd40383c19b8db4ec9a14f2be
+    home: https://github.com/rancher/local-path-provisioner
+    keywords:
+    - storage
+    - hostpath
+    kubeVersion: '>=1.12.0-r0'
+    name: local-path-provisioner
+    sources:
+    - https://github.com/rancher/local-path-provisioner.git
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/sandbox-local-path-provisioner-0.0.24/sandbox-local-path-provisioner-0.0.24.tgz
+    version: 0.0.24
   tpd-livy:
   - apiVersion: v2
     appVersion: "1.0"
@@ -828,4 +845,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2023-05-03T13:57:41.230687044Z"
+generated: "2023-05-03T14:05:00.841628598Z"
