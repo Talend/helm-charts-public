@@ -3,6 +3,26 @@ entries:
   common-component-server:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2023-05-19T13:59:17.01386214Z"
+    description: Talend Component Kit Backend Server
+    digest: 4ed3965ccfb2276f32c1b3635bf24fbefe18f28939c4e6031d6d7db52f200399
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - common-component-server
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    - name: Studio Domain > Tacokit
+    name: common-component-server
+    sources:
+    - https://github.com/Talend/common-component-server
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/common-component-server-1.4.3/common-component-server-1.4.3.tgz
+    version: 1.4.3
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2023-04-06T14:37:47.526770958Z"
     description: Talend Component Kit Backend Server
     digest: 88e8c5fae44e0b0df0a34d5e342b739806c8fa935936db833d3a79680e0d83cc
@@ -887,4 +907,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2023-05-19T09:36:26.947096206Z"
+generated: "2023-05-19T13:59:17.011817712Z"
