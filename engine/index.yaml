@@ -238,6 +238,27 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: 0.1.x
+    created: "2023-05-22T11:37:25.516634945Z"
+    description: A Helm chart for dpe-di-job-deployer in Kubernetes
+    digest: 6f17ff2d8b261b2845f648104e3f978ce071fd254239c30b614c3b4f0af272dc
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - dpe-di-job-deployer
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    - name: Data Processing Platform > Engine
+    name: dpe-di-job-deployer
+    sources:
+    - https://github.com/Talend/dpe-di-job-deployer
+    type: application
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/dpe-di-job-deployer-1.1.1/dpe-di-job-deployer-1.1.1.tgz
+    version: 1.1.1
+  - apiVersion: v2
+    appVersion: 0.1.x
     created: "2023-02-09T14:48:29.299267908Z"
     description: A Helm chart for dpe-di-job-deployer in Kubernetes
     digest: dc6c05d3f480e4849119c8d612888d0a0344381fd5c9d50b09872395ddffab1e
@@ -939,4 +960,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2023-05-22T11:36:26.743724395Z"
+generated: "2023-05-22T11:37:25.515046821Z"
