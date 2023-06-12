@@ -730,7 +730,7 @@ entries:
     version: 2.0.7
   dpr-shared-connectors:
   - apiVersion: v2
-    created: "2023-06-12T04:17:48.0270033Z"
+    created: "2023-06-12T04:22:03.461308276Z"
     description: Manage shared connectors in hostPath volumes
     digest: 3c0fbaf3f7bfa0a2df47285afeff46d62448b49c39344f2ee8b0db72206103f7
     home: https://www.talend.com/products/platform/
@@ -971,4 +971,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2023-06-12T04:21:19.285974507Z"
+generated: "2023-06-12T04:22:03.460025409Z"
