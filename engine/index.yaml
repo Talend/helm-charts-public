@@ -667,6 +667,27 @@ entries:
   dpr-pipeline-launcher:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-06-30T07:38:13.247392225Z"
+    description: A Helm chart for pipeline-launcher in Kubernetes
+    digest: 83ba19b9b0f788f561a60583713fb01aaaa2e00c73337f237a7f78d0900b7a81
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - dpr-pipeline-launcher
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    - name: Data Processing Platform > Runtime
+    name: dpr-pipeline-launcher
+    sources:
+    - https://github.com/Talend/data-processing-pipeline-launcher
+    type: application
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/dpr-pipeline-launcher-2.4.4/dpr-pipeline-launcher-2.4.4.tgz
+    version: 2.4.4
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-06-12T04:49:30.175465784Z"
     description: A Helm chart for pipeline-launcher in Kubernetes
     digest: 2e00d84cec6c4d68f1b739a7ffb680231f56868f68aedbd9189d148b2876e410
@@ -971,4 +992,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2023-06-30T07:37:01.931286226Z"
+generated: "2023-06-30T07:38:13.245634524Z"
