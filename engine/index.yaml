@@ -407,6 +407,27 @@ entries:
   dpe-job-controller:
   - apiVersion: v2
     appVersion: 0.1.x
+    created: "2023-07-17T12:41:04.905768367Z"
+    description: A Helm chart for dpe-job-controller in Kubernetes
+    digest: 6a97f6a9f27a17c3d5240e7360fedc4661fa2467fee0deb22642a3fa080fa224
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - dpe-job-controller
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    - name: Data Processing Platform > Engine
+    name: dpe-job-controller
+    sources:
+    - https://github.com/Talend/dpe-job-controller
+    type: application
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/dpe-job-controller-1.1.4/dpe-job-controller-1.1.4.tgz
+    version: 1.1.4
+  - apiVersion: v2
+    appVersion: 0.1.x
     created: "2023-05-19T09:29:03.917656906Z"
     description: A Helm chart for dpe-job-controller in Kubernetes
     digest: a30f5bed7b38ba8d1a789c3a79f6f4b032c5d868d04a640d568347bde7e7a0dc
@@ -992,4 +1013,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2023-07-13T08:21:03.180894013Z"
+generated: "2023-07-17T12:41:04.903969601Z"
