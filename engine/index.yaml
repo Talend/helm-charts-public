@@ -1092,7 +1092,7 @@ entries:
   tpd-previewrunner:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-09-27T11:14:11.242888427Z"
+    created: "2023-10-02T10:29:06.31594421Z"
     description: A Helm chart for tpd-previewrunner in Kubernetes
     digest: f4bbd62115cfbed131fb8ce63f5995805bb4bc0b3959c960ed4cf21f65286409
     home: https://www.talend.com/products/platform/
@@ -1195,4 +1195,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2023-10-02T10:28:07.836137156Z"
+generated: "2023-10-02T10:29:06.314274937Z"
