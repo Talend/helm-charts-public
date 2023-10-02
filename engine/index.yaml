@@ -828,7 +828,7 @@ entries:
   dpr-pipeline-launcher:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-27T11:13:12.880181093Z"
+    created: "2023-10-02T10:28:07.837782632Z"
     description: A Helm chart for pipeline-launcher in Kubernetes
     digest: 965f8128c7d13781a43d000acff66c917cfd18cc3b4cd3c096a1aa14042ac186
     home: https://www.talend.com/products/platform/
@@ -1195,4 +1195,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2023-10-02T10:27:05.879104001Z"
+generated: "2023-10-02T10:28:07.836137156Z"
