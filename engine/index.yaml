@@ -771,6 +771,17 @@ entries:
   dpe-remote-engine-client:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2023-11-16T07:58:45.215044536Z"
+    description: A Helm chart for the remote engine client in Kubernetes
+    digest: fd40ba04de1b11d42a557c02d34128e4ac62427137a5ca94ba850446495da22c
+    maintainers:
+    - name: Data Processing Platform > Engine
+    name: dpe-remote-engine-client
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/dpe-remote-engine-client-4.1.0/dpe-remote-engine-client-4.1.0.tgz
+    version: 4.1.0
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2023-08-11T12:26:28.045365388Z"
     description: A Helm chart for the remote engine client in Kubernetes
     digest: 49380c51c955ae44b8c8b305802c98183b51afa3d95a74720c1cbb32402fc690
@@ -1238,4 +1249,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2023-11-16T07:58:18.319498185Z"
+generated: "2023-11-16T07:58:45.212688387Z"
