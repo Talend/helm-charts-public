@@ -297,6 +297,25 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/dataset-api-server-0.2.7/dataset-api-server-0.2.7.tgz
     version: 0.2.7
+  dpe-cloud-engine-infra:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2024-03-20T10:10:14.760242607Z"
+    description: common resources for cloud engines for design
+    digest: 61d06f2531f57041cdfeda02534a3b43779889e40639c8f7e6974976acf6ca84
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - Cloud-engine-infra
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    - name: Data Processing Platform > Engine
+    name: dpe-cloud-engine-infra
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/dpe-cloud-engine-infra-2.0.0/dpe-cloud-engine-infra-2.0.0.tgz
+    version: 2.0.0
   dpe-di-job-deployer:
   - apiVersion: v2
     appVersion: 0.1.x
@@ -1438,4 +1457,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2024-03-20T09:59:32.885014109Z"
+generated: "2024-03-20T10:10:14.759581617Z"
