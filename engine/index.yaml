@@ -316,6 +316,41 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/dpe-cloud-engine-infra-2.0.0/dpe-cloud-engine-infra-2.0.0.tgz
     version: 2.0.0
+  dpe-cloud-engine-provisioner:
+  - apiVersion: v2
+    appVersion: 2.1.0
+    created: "2024-04-09T08:01:04.106098498Z"
+    dependencies:
+    - name: talend-infrastructure
+      repository: '@talend'
+      tags:
+      - dpe-cloud-engine-provisioner-standalone
+      version: 5.8.13
+    - name: infra-kafka
+      repository: '@talend'
+      tags:
+      - infra-kafka
+      version: 0.4.0
+    description: A Helm chart for the data-processing-engine-provisioner in Kubernetes
+    digest: 60ec6cb184767fc2e771dfcd7685ce4b0e240d61f65d4f8bd18c224846eb573c
+    home: https://www.talend.com/products/platform/
+    icon: https://www.talend.com/wp-content/uploads/integration-cloud-1.png
+    keywords:
+    - Talend
+    - data-processing-engine
+    - cloud-engine
+    - runtime
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    - name: Data Processing Platform > Engine
+    name: dpe-cloud-engine-provisioner
+    sources:
+    - https://github.com/Talend/data-processing-engine-provisioner
+    type: application
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/dpe-cloud-engine-provisioner-3.2.20/dpe-cloud-engine-provisioner-3.2.20.tgz
+    version: 3.2.20
   dpe-di-job-deployer:
   - apiVersion: v2
     appVersion: 0.1.x
@@ -1499,4 +1534,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2024-03-29T15:23:21.714396976Z"
+generated: "2024-04-09T08:01:04.088406444Z"
