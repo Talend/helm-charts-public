@@ -300,7 +300,7 @@ entries:
   dpe-cloud-engine-infra:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-03-20T10:10:14.760242607Z"
+    created: "2024-04-09T15:22:21.397755017Z"
     description: common resources for cloud engines for design
     digest: 61d06f2531f57041cdfeda02534a3b43779889e40639c8f7e6974976acf6ca84
     home: https://www.talend.com/products/platform/
@@ -1534,4 +1534,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2024-04-09T08:01:04.088406444Z"
+generated: "2024-04-09T15:22:21.397134563Z"
