@@ -1027,6 +1027,17 @@ entries:
     version: 0.3.7
   dpe-remote-engine-agent:
   - apiVersion: v2
+    appVersion: 1.6.0
+    created: "2024-09-12T11:48:20.191696458Z"
+    description: A Helm chart for the remote engine agent in Kubernetes
+    digest: c571c17700670096fdaa88f157bd99e50f41c5edbe24ee0f4e92ff6443f7908f
+    maintainers:
+    - name: Data Processing Platform > Engine
+    name: dpe-remote-engine-agent
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/dpe-remote-engine-agent-3.3.2/dpe-remote-engine-agent-3.3.2.tgz
+    version: 3.3.2
+  - apiVersion: v2
     appVersion: 1.0.0
     created: "2024-08-06T09:41:52.206080812Z"
     description: A Helm chart for the remote engine agent in Kubernetes
@@ -1682,4 +1693,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2024-08-06T09:50:17.433572464Z"
+generated: "2024-09-12T11:48:20.188989141Z"
