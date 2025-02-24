@@ -814,6 +814,18 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/dpe-di-job-deployer-0.2.4/dpe-di-job-deployer-0.2.4.tgz
     version: 0.2.4
+  dpe-engine-config-manager:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-02-24T15:36:22.978601013Z"
+    description: A Helm chart for the engine config manager in Kubernetes
+    digest: 1fcb5417f2b0766d72d4d6f2434af30e59a494ae3facdfbbdba3588d9c352c2b
+    maintainers:
+    - name: Data Processing Platform > Engine
+    name: dpe-engine-config-manager
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/dpe-engine-config-manager-1.0.0/dpe-engine-config-manager-1.0.0.tgz
+    version: 1.0.0
   dpe-job-controller:
   - apiVersion: v2
     appVersion: 0.1.x
@@ -1937,4 +1949,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2025-01-20T15:29:45.780055999Z"
+generated: "2025-02-24T15:36:22.976125606Z"
