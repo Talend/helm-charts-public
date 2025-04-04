@@ -1311,6 +1311,18 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/dpe-job-controller-0.3.7/dpe-job-controller-0.3.7.tgz
     version: 0.3.7
+  dpe-log-collector:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-04-04T09:37:32.172843064Z"
+    description: A Helm chart for the log-collector in Kubernetes
+    digest: cb9cb80d789a9c62789cfc29dbca97e07aa975d348b773be74561453b68341aa
+    maintainers:
+    - name: Data Processing Platform > Engine
+    name: dpe-log-collector
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/dpe-log-collector-1.0.1/dpe-log-collector-1.0.1.tgz
+    version: 1.0.1
   dpe-remote-engine-agent:
   - apiVersion: v2
     appVersion: 1.6.0
@@ -2034,4 +2046,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2025-04-04T09:36:48.328813366Z"
+generated: "2025-04-04T09:37:32.17075432Z"
