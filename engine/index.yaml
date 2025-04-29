@@ -351,6 +351,18 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/dpe-cloud-engine-provisioner-3.2.20/dpe-cloud-engine-provisioner-3.2.20.tgz
     version: 3.2.20
+  dpe-data-service-route-deployer:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-04-29T16:23:23.012579838Z"
+    description: A Helm chart for the DPE Data Service Route Deployer in Kubernetes
+    digest: c71a89349a8341f00433def5c7c8196ec623c897d1a34afe791ed4a7e7010e08
+    maintainers:
+    - name: Data Processing Platform > Engine
+    name: dpe-data-service-route-deployer
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/dpe-data-service-route-deployer-0.10.0/dpe-data-service-route-deployer-0.10.0.tgz
+    version: 0.10.0
   dpe-di-job-deployer:
   - apiVersion: v2
     appVersion: 2.12.1
@@ -2079,4 +2091,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2025-04-29T16:17:31.549679518Z"
+generated: "2025-04-29T16:23:23.010504949Z"
