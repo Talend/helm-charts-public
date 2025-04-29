@@ -1891,6 +1891,28 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/dpr-shared-connectors-0.2.3/dpr-shared-connectors-0.2.3.tgz
     version: 0.2.3
+  dynamic-engine-dsroute-crd:
+  - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2025-04-29T16:17:31.550119535Z"
+    description: A Helm chart for Qlik custom resource definition for dynamic-engine
+      operator
+    digest: 8c0d7cf88d7ad1520210a8c081438c72a4e7a0fe4b855e2a4f52477a91da02da
+    home: https://www.talend.com/
+    icon: https://www.talend.com/wp-content/uploads/talend-logo.svg
+    keywords:
+    - Talend
+    - Qlik
+    - dynamic-engine
+    - dsroute-crd
+    maintainers:
+    - email: support@talend.com
+      name: Talend
+    name: dynamic-engine-dsroute-crd
+    type: application
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/dynamic-engine-dsroute-crd-1.1.0/dynamic-engine-dsroute-crd-1.1.0.tgz
+    version: 1.1.0
   local-path-provisioner:
   - apiVersion: v1
     appVersion: v0.0.24
@@ -2057,4 +2079,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2025-04-29T10:36:05.793495346Z"
+generated: "2025-04-29T16:17:31.549679518Z"
