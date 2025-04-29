@@ -858,6 +858,17 @@ entries:
     version: 0.2.4
   dpe-engine-config-manager:
   - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2025-04-29T10:36:05.795651069Z"
+    description: A Helm chart for the engine config manager in Kubernetes
+    digest: 77ee1bad0326759b6abbadb85b614270f2a0227c47735638dcd93a05911c4a69
+    maintainers:
+    - name: Data Processing Platform > Engine
+    name: dpe-engine-config-manager
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/dpe-engine-config-manager-2.0.0/dpe-engine-config-manager-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v2
     appVersion: 1.1.0
     created: "2025-04-04T09:35:38.040407181Z"
     description: A Helm chart for the engine config manager in Kubernetes
@@ -2046,4 +2057,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2025-04-04T09:37:32.17075432Z"
+generated: "2025-04-29T10:36:05.793495346Z"
