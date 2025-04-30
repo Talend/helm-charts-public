@@ -1,6 +1,6 @@
 ## Welcome to the Talend public helm charts registry
 
-This repository host the public [helm charts](https://helm.sh/) that are created and maintained by Talend and provide them as a Helm registry.
+This repository hosts the public [helm charts](https://helm.sh/) that are created and maintained by Talend and provide them as a Helm registry.
 
 
 ### How to add the Talend public registry to helm
