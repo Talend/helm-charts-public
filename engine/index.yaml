@@ -354,6 +354,17 @@ entries:
   dpe-data-service-route-deployer:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2025-06-27T15:03:18.376752636Z"
+    description: A Helm chart for the DPE Data Service Route Deployer in Kubernetes
+    digest: 6345890b7725a150fd8455cef57770319a6ac6137dbd2411bbe05524d41c6fe8
+    maintainers:
+    - name: Data Processing Platform > Engine
+    name: dpe-data-service-route-deployer
+    urls:
+    - https://talend.github.io/helm-charts-public/engine/dpe-data-service-route-deployer-0.14.2/dpe-data-service-route-deployer-0.14.2.tgz
+    version: 0.14.2
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2025-05-05T13:07:17.290504889Z"
     description: A Helm chart for the DPE Data Service Route Deployer in Kubernetes
     digest: c90bd02f97fcfb649f731a1a19679c5c61e336c7d456e53c52c3082404c786f4
@@ -2122,4 +2133,4 @@ entries:
     urls:
     - https://talend.github.io/helm-charts-public/engine/tpd-previewrunner-1.1.0/tpd-previewrunner-1.1.0.tgz
     version: 1.1.0
-generated: "2025-05-05T13:07:17.288392225Z"
+generated: "2025-06-27T15:03:18.374570861Z"
